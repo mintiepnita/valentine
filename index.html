@@ -29,7 +29,7 @@
       h2 {
         font-family: "Darumadrop One", sans-serif;
         font-weight: 400; /* This font doesn't have different weights */
-        font-size: 3.5vh;
+        font-size: 3.2vh;
       }
 
       /* Thai text */
@@ -270,7 +270,7 @@
       allow="autoplay"
     ></iframe>
     <div class="container active" id="step1">
-      <h2>Happy Valentine's Day <span class="symbol">-`♡´-</span></h2>
+      <h2>Happy Valentine's Day <br /><span class="symbol">-`♡´-</span></h2>
       <p>แฮปปี้วาเลนไทน์เดย์นะคะอ้วง</p>
       <button class="heart-button" onclick="nextStep(2)">❤</button>
     </div>
@@ -288,8 +288,16 @@
       <button class="heart-button" onclick="nextStep(4)">❤</button>
     </div>
     <div class="container" id="step4">
-      <h2>And thank you for always being supportive and understanding me</h2>
-      <p>ขอบคุณแฟนนะคะที่ซัพพอร์ทผมและเข้าใจผมมาโดยตลอดเลย</p>
+      <h2>
+        And thank you for always being supportive and understanding me
+        &nbsp;<span class="symbol">♡</span>
+      </h2>
+      <p>
+        ขอบคุณแฟนนะคะที่ซัพพอร์ทผมและเข้าใจผมมาโดยตลอดเลย &nbsp;<span
+          class="symbol"
+          >♡</span
+        >
+      </p>
       <button class="heart-button" onclick="nextStep(5)">❤</button>
     </div>
     <div class="container" id="step5">
@@ -301,11 +309,12 @@
     </div>
     <div class="container" id="step6">
       <h2>
-        Hope you do like my Valentine's gift :-) Love you
+        Hope you do like my Valentine's gift :-) <br />Love you
         <span class="symbol">♡</span>
       </h2>
       <p>
-        หวังว่าจะชอบนะคะไออ้วงของผม :-) รักนะคะ <span class="symbol">♡</span>
+        หวังว่าจะชอบนะคะไออ้วงของผม :-) <br />รักนะคะ
+        <span class="symbol">♡</span>
       </p>
       <button class="heart-button" onclick="nextStep(7)">❤</button>
     </div>
